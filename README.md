@@ -33,17 +33,17 @@ This folder contains three subfolders:
 # Main
 This folder includes:
   1. A subfolder 'figures' and another subfolder 'tables', both replicating all figures and tables in the main text.
-  2. A Stata do-file named main_results.do, which replicates all main text results.
+  2. A Stata do-file named _main_results.do_, which replicates all main text results.
 
 # Appendix
 This folder includes:
   1. Subfolders 'figures' and 'tables' containing all figures and tables in the online appendix.
-  2. A Stata do-file named appendix_results.do, which replicates these appendix materials.
+  2. A Stata do-file named _appendix_results.do_, which replicates these appendix materials.
 
 # Runme
 These are master scripts that execute the full set of simulations and empirical analyses. The should be executed in the following order:
-- runme_main.m: MATLAB script that runs all model simulations and exports the benchmark results.
-- runme_sensitivity.m: MATLAB script that tests sensitivity of the benchmark simulations to alternative parameter values.
-- runme.do: Stata master do-file for both empirical estimations and simulation-related procedures.
+- _runme_main.m_: MATLAB script that runs all model simulations and exports the benchmark results.
+- _runme_sensitivity.m_: MATLAB script that tests sensitivity of the benchmark simulations to alternative parameter values.
+- _runme.do_: Stata master do-file for both empirical estimations and simulation-related procedures.
 Software
 The empirical analysis was conducted using Stata MP Version 18. The theoretical model simulations were implemented in Matlab Version 2024b.
