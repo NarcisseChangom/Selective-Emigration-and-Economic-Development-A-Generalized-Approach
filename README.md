@@ -1,10 +1,7 @@
 Replication Package for
 # “Selective Emigration and Economic Development: A Generalized Approach”
 
-Narcisse Cha’ngom
- Christoph Deuster
-Frédéric Docquier
-Joël Machado
+_Narcisse Cha’ngom, Christoph Deuster, Frédéric Docquier,_ and _Joël Machado_
 
 
 Version: May 2025
