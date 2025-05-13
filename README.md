@@ -41,9 +41,11 @@ This folder includes:
   2. A Stata do-file named _appendix_results.do_, which replicates these appendix materials.
 
 # Runme
-These are master scripts that execute the full set of simulations and empirical analyses. The should be executed in the following order:
+These are master scripts that execute the full set of simulations and empirical analyses. They should be executed in the following order:
 - _runme_main.m_: MATLAB script that runs all model simulations and exports the benchmark results.
 - _runme_sensitivity.m_: MATLAB script that tests sensitivity of the benchmark simulations to alternative parameter values.
 - _runme.do_: Stata master do-file for both empirical estimations and simulation-related procedures.
-Software
+
+  
+# Software
 The empirical analysis was conducted using Stata MP Version 18. The theoretical model simulations were implemented in Matlab Version 2024b.
