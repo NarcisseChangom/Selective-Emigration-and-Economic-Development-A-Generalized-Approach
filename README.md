@@ -11,10 +11,15 @@ Version: May 2025
 This replication package includes all data and code required to reproduce the tables and figures presented in the paper. The datasets used in the paper are provided. The replication files are organized into four folders and three master scripts:
 
 • appendix
+
 • main
+
 • matlab
+
 • stata
+
 • runme
+
 
 # Stata
 This folder contains a single subfolder named “data”, which includes the cleaned datasets used for the empirical analysis.
